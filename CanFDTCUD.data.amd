@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.1.0-Win10" schemaVersion="6.1.0.0">
+	<DataSet name="CanFDTCUD" OID="_040g1ngg019p1oo708ag4r420evoc" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2025-11-19T04:05:01" timeStampCounter="204"/>
+		<DataEntry elementName="EEP_stFDTCU01" elementOID="_040g1ngg01pp1p070g50b5bbvbl16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="EEP_stFDTCU02" elementOID="_040g1ngg01pp1p070g50b5bbvbj16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="EEP_stFDTCU03" elementOID="_040g1ngg01pp1p070g50b68vrr1h8">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<DataSet name="Data" OID="_040g1ngg019p1oo708ag4r41uiuoc" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2025-11-19T04:05:01" timeStampCounter="202"/>
+		<DataEntry elementName="CanD_cEnaDetTcu01" elementOID="_040g1ngg01pp1p070g50b5bbv81h8">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cEnaDetTcu02" elementOID="_040g1ngg01pp1p070g50b5bbvbs16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cEnaDetTcu03" elementOID="_040g1ngg01pp1p070ge0k18nt5g16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cEnaDiagTcu01" elementOID="_040g1ngg01pp1p070g50b5bbvbuh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cEnaDiagTcu02" elementOID="_040g1ngg01pp1p070g50b5bbv82h8">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cEnaDiagTcu03" elementOID="_040g1ngg01pp1p070ge0k18nt5h16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu01Alv" elementOID="_040g1ngg01pp1p070g50b5bbvbkh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu01Crc" elementOID="_040g1ngg01pp1p070g50b5bbvbo16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu01Msg" elementOID="_040g1ngg01pp1p070g50b5bbvbf16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu02Alv" elementOID="_040g1ngg01pp1p070g50b5bbvbr16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu02Crc" elementOID="_040g1ngg01pp1p070g50b5bbvbjh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu02Msg" elementOID="_040g1ngg01pp1p070g50b5bbvbu16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu03Alv" elementOID="_040g1ngg01pp1p070ge0jtujl55h6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu03Crc" elementOID="_040g1ngg01pp1p070ge0jtujl56h6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_cErrTcu03Msg" elementOID="_040g1ngg01pp1p070ge0jtujl54h6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Logic value="false"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_ctDetTcu_C" elementOID="_040g1ngg01pp1p070g50b5bbvbv16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="5"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_ctDetTcu01" elementOID="_040g1ngg01pp1p070g50b5bbv80h8">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_ctDetTcu02" elementOID="_040g1ngg01pp1p070g50b5bbv84h8">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_ctDetTcu03" elementOID="_040g1ngg01pp1p070ge0jtcthil14">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_RstEepTcu_C" elementOID="_040g1ngg01pp1p070g50b5bbvbvh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu01_C" elementOID="_040g1ngg01pp1p070g50b5bbvbmh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="2.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu01Alv" elementOID="_040g1ngg01pp1p070g50b5bbv8318">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu01Crc" elementOID="_040g1ngg01pp1p070g50b5bbvbp16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu01Msg" elementOID="_040g1ngg01pp1p070g50b5bbvbqh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu02_C" elementOID="_040g1ngg01pp1p070g50b5bbvblh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="2.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu02Alv" elementOID="_040g1ngg01pp1p070g50b5bbvbn16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu02Crc" elementOID="_040g1ngg01pp1p070g50b5bbvbi16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu02Msg" elementOID="_040g1ngg01pp1p070g50b5bbvbh16">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu03_C" elementOID="_040g1ngg01pp1p070g50b6onmh71c">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="2.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu03Alv" elementOID="_040g1ngg01pp1p070g50b6qfil81c">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu03Crc" elementOID="_040g1ngg01pp1p070g50b6qfila1c">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiFltTcu03Msg" elementOID="_040g1ngg01pp1p070g50b6qfil91c">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_tiMonDetTcu_C" elementOID="_040g1ngg01pp1p070g4gb1r2msn02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="5.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="Cfg_CanFDTCUD_C" elementOID="_040g1ngg01pp1p070g50b5bbvbsh6">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="autodetection_CW_STD" elementOID="_040g1ngg01pp1p070g50b5bbv8ch8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g1ngg01pp1oo70c2g6se48vbdi"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="autodetection_STD" elementOID="_040g1ngg01pp1p070g50b5bbv8bh8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g1ngg01pp1oo70c2g6sc5o6qti"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="BAAEEP" elementOID="_040g1ngg01pp1p070g50b5bbv8718">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g04136ps01mo710cgi4us2n46e"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_dCtTcu01" elementOID="_040g1ngg01pp1p070g50b5bbv8dh8">
+			<DataVariant name="default">
+				<ComplexType dataName="DeltaOneStep" dataOID="_040g030000001m87144g6gkfohngc"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_dCtTcu02" elementOID="_040g1ngg01pp1p070g50b5bbv8a18">
+			<DataVariant name="default">
+				<ComplexType dataName="DeltaOneStep" dataOID="_040g030000001m87144g6gkfohngc"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="CanD_dCtTcu03" elementOID="_040g1ngg01pp1p070ge0jt4h5n7h2">
+			<DataVariant name="default">
+				<ComplexType dataName="DeltaOneStep" dataOID="_040g030000001m87144g6gkfohngc"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu01Alv" elementOID="_040g1ngg01pp1p070g50b5bbv8gh8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu01Crc" elementOID="_040g1ngg01pp1p070g50b5bbv87h8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu01Msg" elementOID="_040g1ngg01pp1p070g50b5bbv8h18">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu02Alv" elementOID="_040g1ngg01pp1p070g50b5bbv8hh8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu02Crc" elementOID="_040g1ngg01pp1p070g50b5bbv8ih8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu02Msg" elementOID="_040g1ngg01pp1p070g50b5bbv86h8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu03Alv" elementOID="_040g1ngg01pp1p070ge0jtriuh1h6">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu03Crc" elementOID="_040g1ngg01pp1p070ge0jtrj0d2h6">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DEve_FDTcu03Msg" elementOID="_040g1ngg01pp1p070ge0jtrj0d3h6">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6cotfe814"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DFRM_stClrReq" elementOID="_040g1ngg01pp1p070g50b5bbv8c18">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70k62k84jc68g2"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="DFSdl_stPrms" elementOID="_040g1ngg01pp1p070g50b5bbv8fh8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o3hukl9ujs9g"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="errordetection_STD" elementOID="_040g1ngg01pp1p070g50b5bbv2906">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g1ngg01pp1oo70c2g6t0e843tk"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="Fid_FDTCU01D" elementOID="_040g1ngg01pp1p070g50b5bbv8b18">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6co9eog12"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="Fid_FDTCU02D" elementOID="_040g1ngg01pp1p070g50b5bbv8ah8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6co9eog12"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="Fid_FDTCU03D" elementOID="_040g1ngg01pp1p070g50b6nhhp61c">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001mg70o7g6co9eog12"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="hmc_GetBit" elementOID="_040g1ngg01pp1p070g50b5bbv8i18">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001m8710d08cna54eg8"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="MonDlyTCU_TOFFV" elementOID="_040g1ngg01pp1p070g4gb1r2mti02">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g030000001m87149g79js4pag6"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="Rst_autodetectionTester_STD" elementOID="_040g1ngg01pp1p070g50b5bbv8d18">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040g1ngg01pp1oo70c2g6t63hckdk"/>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="TCU_EnaDiag_ER" elementOID="_040g1ngg01pp1p070g4gb1r2mtdg2">
+			<DataVariant name="default">
+				<ComplexType dataName="EdgeFallinig" dataOID="_040g030000001m87144g3oqctbp00"/>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>17huXYe//zlS5nu+AwbooT/TVbo=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>pveEBDX1mwEM13qlGZLcaWown5RqUtzSHN70qteblIz3HJPxs+2Rto1LM0r0owxI
+p6VsbJvG779max6ih3yDcNVh09N1ePCBQv0TLJNhTm+PoYM7Dhv/h6Za08FyvtXf
+Uhn356bVeTpWBej2aPd1Ds2B8wJKLofRZ66N8VwLWGrI5pTNoGvXnGrKRQRGFLvd
+jcvooW1xE9JnOUMdvmxPSYVMuXzDCQxH8FXccXFXyr1Ur0KIgQ1QJrFH88uB84Ld
+GeLQ7cAcRSSLol9wxW9GtioqK6LCJGWq5B1xABIXBo9kFEOhMmKs/umlFmKmjJyL
+IqTUkY3LZlradRVOWDi/Cw==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>
