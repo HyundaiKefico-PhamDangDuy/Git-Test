@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentMain toolVersion="V6.1.0-Win10" schemaVersion="6.1.0.0">
+	<Component name="CanFDSCUD_1" nameSpace="/HNB_GASOLINE/_29_CommunicationVehicle/CANInterface/SCU/MessageDiag/CanFDSCUD" OID="_040g001428801q871caghls3h4434" timeStamp="2025-11-21T17:14:10" componentType="ASCET_Module" specificationType="BlockDiagram" defaultProjectName="CanFDSCUD_1_DEFAULT" defaultProjectOID="_040g001428801q871caghls3mt734">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2025-11-21T08:14:10" timeStampCounter="570"/>
+		<Notes>
+			<Note name="History">
+				<Text></Text>
+				<View name="default"/>
+			</Note>
+		</Notes>
+		<CustomerSpecificAttributes>
+			<ConfigurationManagement edition="true" versionID="" configurationID=""/>
+			<RequirementsManagement requirementsID=""/>
+			<AccessManagement read="true" write="true" import="true"/>
+		</CustomerSpecificAttributes>
+		<Elements>
+			<Element name="Can_ctScuFf01" OID="_040g001428801q871caghls3j0a34" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="udisc" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="message" scope="imported" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_cEnaDetScuFf01" OID="_040g001428801q871caghls3j0934" ignore="false">
+				<Comment>Enable SCU_FF_01_10ms message receive detection</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_cEnaDiagScuFf01" OID="_040g001428801q871caghls3j0534" ignore="false">
+				<Comment>Enable diagnosis for SCU_FF_01_10ms message</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_cErrScuFf01Alv" OID="_040g001428801q871caghls3j0cj4" ignore="false">
+				<Comment>SCU_FF_01_10ms alive counter error occurred</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_cErrScuFf01Crc" OID="_040g001428801q871caghls3j0d34" ignore="false">
+				<Comment>SCU_FF_01_10ms CRC error occurred</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_cErrScuFf01Msg" OID="_040g001428801q871caghls3j07j4" ignore="false">
+				<Comment>SCU_FF_01_10ms message counter error occurred</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_ctDetScu_C" OID="_040g001428801q871caghls3j08j4" ignore="false">
+				<Comment>Detection threshold to acknowledge SCU message</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="udisc" unit="-">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="local" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_ctDetScuFf01" OID="_040g001428801q871caghls3j0dj4" ignore="false">
+				<Comment>Detection counter to acknowledge SCU_FF_01_10ms</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="udisc" unit="-">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_RstEepScu_C" OID="_040g001428801q871caghls3j0634" ignore="false">
+				<Comment>Codeword to reset the presence value in EEPROM</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="udisc" unit="-">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="local" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_tiFltScuFf01_C" OID="_040g001428801q871caghls3j0e34" ignore="false">
+				<Comment>De-bounce timer threshold to set or reset SCU_FF_01_10ms error</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="s">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="local" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_tiFltScuFf01Alv" OID="_040g001428801q871caghls3j0c34" ignore="false">
+				<Comment>De-bounce timer to set SCU_FF_01_10ms alive counter fault</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="s">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_tiFltScuFf01Crc" OID="_040g001428801q871caghls3j0b34" ignore="false">
+				<Comment>De-bounce timer to set SCU_FF_01_10ms CRC fault</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="s">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_tiFltScuFf01Msg" OID="_040g001428801q871caghls3j09j4" ignore="false">
+				<Comment>De-bounce timer to set SCU_FF_01_10ms message counter fault</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="s">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_tiMonDetScu_C" OID="_040g001428801q871caghls3j0aj4" ignore="false">
+				<Comment>Monitoring time for the detection of the SCU message</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="s">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="local" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="Cfg_CanFDSCUD_C" OID="_040g001428801q871caghls3j0ej4" ignore="false">
+				<Comment>Codeword to configure diagnosis for SCU</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="udisc" unit="-">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="local" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="EEP_FDSCUFF01" OID="_040g001428801q871caghls3j05j4" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="udisc" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="sysconstant" scope="imported" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="EEP_stFDSCUFF01" OID="_040g001428801q871caghls3j0bj4" ignore="false">
+				<Comment>Current message SCU_FF_01_10ms presence stored in EEPROM</Comment>
+				<ElementAttributes modelType="scalar" basicModelType="udisc" unit="-">
+					<ScalarType>
+						<PrimitiveAttributes kind="message" scope="exported" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="FD_cEnaDiag" OID="_040g001428801q871caghls3j06j4" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="message" scope="imported" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="FD_cVldScuFf01Alv" OID="_040g001428801q871caghls3j04j4" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="message" scope="imported" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="FD_cVldScuFf01Crc" OID="_040g001428801q871caghls3j0834" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="message" scope="imported" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="FD_cVldScuFf01Msg" OID="_040g001428801q871caghls3j0734" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="log" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="message" scope="imported" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="autodetection_CW_STD" OID="_040g001428801q871caghls3j0m34" ignore="false">
+				<Comment>Autodetection codeword class in SCU CAN diagnosis</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HNB_GASOLINE/_29_CommunicationVehicle/CANInterfaceCommon/DiagnosisLibrary/autodetection/autodetection_CW_STD" componentID="_040g1ngg01pp1oo70c2g6se48v6ti" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="autodetection_STD" OID="_040g001428801q871caghls3j0lj4" ignore="false">
+				<Comment>Autodetection class in SCU CAN diagnosis</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HNB_GASOLINE/_29_CommunicationVehicle/CANInterfaceCommon/DiagnosisLibrary/autodetection/autodetection_STD" componentID="_040g1ngg01pp1oo70c2g6sc5o6mdi" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="BAAEEP" OID="_040g001428801q871caghls3j0gj4" ignore="false">
+				<Comment>EEPROM initialize class in SCU CAN diagnosis</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HNB_GASOLINE/BAA/BAAC/BAAEEP" componentID="_040g04136ps01mo710cgi4us2mdme" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="CanD_dCtScuFf01" OID="_040g001428801q871caghls3j0k34" ignore="false">
+				<Comment>Delta count check for SCU_FF_01_10ms</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_SystemLibrary/Miscellaneous/hmc_DeltaOneStep" componentID="_040g030000001m87144g6gkfmhk0c" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="DEve_FDScuFf01Alv" OID="_040g001428801q871caghls3j0jj4" ignore="false">
+				<Comment>SCU_FF_01_10ms alive counter DEve</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_DiagLibrary/DSM_Types/DEve_Typ" componentID="_040g030000001mg70o7g6cotfe6h4" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="DEve_FDScuFf01Crc" OID="_040g001428801q871caghls3j0g34" ignore="false">
+				<Comment>SCU_FF_01_10ms CRC DEve</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_DiagLibrary/DSM_Types/DEve_Typ" componentID="_040g030000001mg70o7g6cotfe6h4" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="DEve_FDScuFf01Msg" OID="_040g001428801q871caghls3j0f34" ignore="false">
+				<Comment>SCU_FF_01_10ms message counter DEve</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_DiagLibrary/DSM_Types/DEve_Typ" componentID="_040g030000001mg70o7g6cotfe6h4" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="DFRM_stClrReq" OID="_040g001428801q871caghls3j0fj4" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_DiagLibrary/DEve/DFRM_stClrReq" componentID="_040g030000001mg70k62k84j8a602" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="DFSdl_stPrms" OID="_040g001428801q871caghls3j0j34" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_DiagLibrary/DFSdl/DFSdl_stPrms" componentID="_040g030000001mg70o3hukl9qnopg" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="errordetection_STD" OID="_040g001428801q871caghls3j0hj4" ignore="false">
+				<Comment>Error detection class in SCU CAN diagnosis</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HNB_GASOLINE/_29_CommunicationVehicle/CANInterfaceCommon/DiagnosisLibrary/errordetection/errordetection_STD" componentID="_040g1ngg01pp1oo70c2g6t0e87tti" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="Fid_FDSCUFF01D" OID="_040g001428801q871caghls3j0kj4" ignore="false">
+				<Comment>Function inhibitor for SCU_FF_01_10ms Rx error</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_DiagLibrary/DSM_Types/Fid_Typ" componentID="_040g030000001mg70o7g6co9cseh2" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="hmc_GetBit" OID="_040g001428801q871caghls3j0l34" ignore="false">
+				<Comment>Get Bit value</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_SystemLibrary/Bitoperations/hmc_GetBit" componentID="_040g030000001m8710d08cna38c08" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="MonDlySCU_TOFFV" OID="_040g001428801q871caghls3j0i34" ignore="false">
+				<Comment>CAN message learning shutdown time</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_SystemLibrary/Delay/hmc_TurnOffDelayVariable" componentID="_040g030000001m87149g79jrp56g6" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="Rst_autodetectionTester_STD" OID="_040g001428801q871caghls3j0h34" ignore="false">
+				<Comment>Reset Autodetection Tester class in SCU CAN diagnosis</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HNB_GASOLINE/_29_CommunicationVehicle/CANInterfaceCommon/DiagnosisLibrary/ResetAutoDetectionTester/Rst_autodetectionTester_STD" componentID="_040g1ngg01pp1oo70c2g6t63hchdk" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+			<Element name="SCU_EnaDiag_ER" OID="_040g001428801q871caghls3j0ij4" ignore="false">
+				<Comment>Edge rising function</Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/HMC_ECU_Library/HMC_SystemLibrary/Miscellaneous/hmc_EdgeRising" componentID="_040g030000001m87144g3oqcpflg0" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+		</Elements>
+		<MethodSignatures>
+			<MethodSignature name="_100msRun" OID="_040g001428801q871caghls3j0nj4" public="true" default="false" defaultMethod="true" hidden="false" availableForOS="true">
+				<Locals>
+					<Local name="_Can_dCtScuFf01" OID="_040g001428801q871caghls3j0mj4" ignore="false">
+						<Comment></Comment>
+						<ElementAttributes modelType="scalar" basicModelType="cont" unit="">
+							<ScalarType>
+								<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+							</ScalarType>
+						</ElementAttributes>
+					</Local>
+				</Locals>
+			</MethodSignature>
+			<MethodSignature name="_EEPRes" OID="_040g001428801q871caghls3j0o34" public="true" default="false" defaultMethod="false" hidden="false" availableForOS="true"/>
+			<MethodSignature name="_fcmclr" OID="_040g001428801q871caghls3j0oj4" public="true" default="false" defaultMethod="false" hidden="false" availableForOS="true"/>
+			<MethodSignature name="_Init" OID="_040g001428801q871caghls3j0p34" public="true" default="false" defaultMethod="false" hidden="false" availableForOS="true">
+				<Locals>
+					<Local name="diag_temp1" OID="_040g001428801q871caghls3j0n34" ignore="false">
+						<Comment></Comment>
+						<ElementAttributes modelType="scalar" basicModelType="udisc" unit="">
+							<ScalarType>
+								<PrimitiveAttributes kind="variable" scope="local" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+							</ScalarType>
+						</ElementAttributes>
+					</Local>
+				</Locals>
+			</MethodSignature>
+		</MethodSignatures>
+		<TimeStamps>
+			<TimeStamp timeStampKey="implementationTypeTimeStampKey" timeStampValue="2025-04-29T04:09:39"/>
+			<TimeStamp timeStampKey="methodsTimeStampKey" timeStampValue="2025-11-21T08:12:21"/>
+			<TimeStamp timeStampKey="formulaTimeStampKey" timeStampValue="2025-04-29T04:09:39"/>
+			<TimeStamp timeStampKey="directAccessTimeStampKey" timeStampValue="2025-04-29T04:09:39"/>
+			<TimeStamp timeStampKey="exportImportTimeStampKey" timeStampValue="2025-04-29T04:09:39"/>
+			<TimeStamp timeStampKey="implementationCastTimeStampKey" timeStampValue="2025-04-29T04:09:39"/>
+		</TimeStamps>
+	</Component>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>nd1JoDWgUvlJAHnE1FJYoAPZBd0=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>hqiLov6j+rSlj9i54dlHXEunvv9PsW3Ljr9TNfFcck51r6FsqM/vOBXFBF4ACBlp
+nL5B8NinnJIvtedcdvk5fFLcZxdUB577MI3imR6wgZcC8TbkdprJgmUEERfIKBwC
+GP62Mr3Ij9VPcXau0a9Vxz8VzcMd+aMMfwOvGK4azDdK/So/ybrTzBqGv7heDuMB
+6Bc1YmQUNV1ftuIBmqsHoYmFoPyOpY5fdPQUtzTJcLSMDQCZNj4z7jEn3OAYcrOc
+dE40SYqQrO8AGaq7bIpCA50FmkZSbTrIiNvyMlAWkm9DIvSwAChxbMcDUs78Gg8z
+dO6nvX6SkMYqfCBA6OEhpA==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentMain>
